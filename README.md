@@ -1,12 +1,9 @@
-Docker Wordpress MySql Demo
+Docker Wordpress Db Query Demo
 ===========================
 
-通过docker-compose将多个docker images（wordpress, mysql, phpMyAdmin) 组合起来，
-搭建一个本地的快速开发wordpress环境。
+可以使用`$wpdb`这个global对象的方法来query.
 
-本地`WordPress-5.3.2`中的文件将被映射到docker container里，我们的修改刷新浏览器后马上可以看到效果。
-
-`docker-entrypoint-initdb.d`下是sql的初始化文件，启动时会自动使用它来初始化数据库
+wordpress也提供了一些常用的函数，比如`get_option`等，直接查询数据库拿结果。
 
 ```
 npm run up

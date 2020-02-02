@@ -1,7 +1,7 @@
 {
   "scripts": {
     "up": "docker-compose up -d",
-    "postup": "open http://localhost:20080/wp-admin & open http://localhost:20081",
+    "postup": "open http://localhost:20080/test.php & open http://localhost:20081",
     "down": "docker-compose down"
   }
 }
