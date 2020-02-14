@@ -1,7 +1,7 @@
-Docker Wordpress Db Query Demo
+Docker Wordpress Db Operation Demo
 ===========================
 
-可以使用`$wpdb`这个global对象的方法来query.
+可以使用`$wpdb`这个global对象的方法来query/insert/update/delete.
 
 wordpress也提供了一些常用的函数，比如`get_option`等，直接查询数据库拿结果。
 
@@ -15,4 +15,3 @@ npm run up
 freewind
 123456
 ```
-
